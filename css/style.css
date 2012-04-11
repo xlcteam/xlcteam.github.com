@@ -1,0 +1,73 @@
+body {
+  background: #01243B;
+  color: #999;
+	margin: 0;
+  font-family: "Trebuchet MS",Helvetica,Jamrul,sans-serif;
+}
+
+.s {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}.a {
+  width: 100%;
+  height: 100%;
+  background: #ccc;
+}
+
+#header{
+  width: 100%;
+  height: 170px;
+}
+
+#header div {
+  width: 800px;
+  height: 170px;
+  margin: 0 auto;
+}
+
+#logo {
+  padding-top: 10px;
+  /*padding-left: 10px;*/
+  float: left;
+
+}
+
+.desc {
+  font-style: italic;
+  font-size: 3em;
+  padding-top: 20px;
+  padding-left: 20px;
+  float: left;
+}
+
+#projects {
+  background-color: #000;
+  color: #fff;
+  width: 700px;
+  height: 390px;
+  margin: 0 auto;
+  line-height: 3px;
+  border-radius: 8px 8px 8px 8px;
+  margin-top: 20px;
+  -webkit-box-shadow: inset 0 0 8px 8px #888;
+  -moz-box-shadow: inset 0 0 8px 8px #888;
+  -ms-box-shadow: inset 0 0 8px 8px #888;
+  -o-box-shadow: inset 0 0 8px 8px #888;
+  box-shadow: inset 0 0 8px 8px #888;
+}
+
+#slideshow {
+  width: 99%;
+  height: 99%;
+  margin: 0 auto;
+}
+
+
+
+#footer{
+	width: 100% !important;
+	float: left;
+	margin: 0 auto;
+	text-align: center;
+}

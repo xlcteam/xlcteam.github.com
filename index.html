@@ -1,1 +1,39 @@
-Nothing here
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Developer - Team 0x584C43</title>
+
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.cycle.all.js"></script>
+
+    <script>
+      $(document).ready(function() { 
+        $('#slideshow').cycle({ 
+          fx: 'curtainX', 
+          delay: -4000 
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id="header">
+      <div>
+        <img id="logo" src="css/img/logo_white_small.png" ></img>
+        <h1 class="desc">Projects we are working on</h1>
+      </div>
+    </div>
+
+    <div id="projects">
+      <div id="slideshow">
+        <div class="s"></div>
+        <div class="a"></div>
+      </div>
+    </div>
+
+	  <div id="footer">
+		  <small>&copy 2012 XLC-Team aka 0x584C43. All rights reserved. </small>
+	  </div>
+  </body>
+</html>
