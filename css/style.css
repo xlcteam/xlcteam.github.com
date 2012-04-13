@@ -9,37 +9,22 @@ body {
   margin: 0 auto;
 }
 
-.s {
-  width: 100%;
-  height: 100%;
-  background: #fff;
-  -webkit-box-shadow: inset 0 0 8px 8px #888;
-  -moz-box-shadow: inset 0 0 8px 8px #888;
-  -ms-box-shadow: inset 0 0 8px 8px #888;
-  -o-box-shadow: inset 0 0 8px 8px #888;
-  box-shadow: inset 0 0 8px 8px #888;
-  line-height: 3px;
-  border-radius: 8px 8px 8px 8px;
-}.a {
-  width: 100%;
-  height: 100%;
-  background: #ccc;
-  -webkit-box-shadow: inset 0 0 8px 8px #888;
-  -moz-box-shadow: inset 0 0 8px 8px #888;
-  -ms-box-shadow: inset 0 0 8px 8px #888;
-  -o-box-shadow: inset 0 0 8px 8px #888;
-  box-shadow: inset 0 0 8px 8px #888;
-  line-height: 3px;
-  border-radius: 8px 8px 8px 8px;
-}
 
 #header{
   width: 100%;
   height: 170px;
 }
 
+#headcontent p {
+  font-size: 2em;
+  margin-top: 5px;
+  padding-left: 20px;
+  margin-top: -20px;
+  float: left;
+}
+
 #header div {
-  width: 800px;
+  width: 670px;
   height: 170px;
   margin: 0 auto;
 }
@@ -51,12 +36,13 @@ body {
 
 }
 
-.desc {
+.head {
   font-style: italic;
   font-size: 3em;
-  padding-top: 20px;
+  margin-top: 20px;
   padding-left: 20px;
   float: left;
+  color: #fff;
 }
 
 #projects {
@@ -71,6 +57,13 @@ body {
   width: 99%;
   height: 99%;
   margin: 0 auto;
+  -webkit-box-shadow: inset 0 0 8px 8px #888;
+  -moz-box-shadow: inset 0 0 8px 8px #888;
+  -ms-box-shadow: inset 0 0 8px 8px #888;
+  -o-box-shadow: inset 0 0 8px 8px #888;
+  box-shadow: inset 0 0 8px 8px #888;
+  line-height: 3px;
+  border-radius: 8px 8px 8px 8px;
 }
 
 .rightarrow {
