@@ -9,9 +9,11 @@
 
     <script>
       $(document).ready(function() { 
-        $('#slideshow').cycle({ 
-          fx: 'curtainX', 
-          delay: -4000 
+        $('#projects').cycle({ 
+          fx: 'scrollLeft', 
+          delay: 4000 ,
+          next: '#leftarrow',
+          prev: '#rightarrow'
         });
       });
     </script>
@@ -27,14 +29,24 @@
     </div>
 
     <div id="content">
-      <div class="leftarrow"></div>
+      <div id="leftarrow"></div>
       <div id="projects">
-        <div id="slideshow">
-          <img src="css/img/edscreen.png" width="700"/>
-          <img src="css/img/emuscreen.png" width="700"/>
+        
+        <div class="slideshow">
+          <div class="sheader">
+            nxtIDE          
+          </div>
         </div>
+        
+        <div class="slideshow">
+          <div class="sheader">
+            scoreBoard
+          </div>        
+        </div>  
+      
+
       </div>
-      <div class="rightarrow"></div>
+      <div id="rightarrow"></div>
     </div>
 
 	  <div id="footer">
