@@ -2,10 +2,7 @@ body {
   background: #01243B;
   color: #999;
 	margin: 0;
-  font-family: 'Oxygen';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Oxygen'), format('woff');
+  font-family: 'Oxygen', sans-serif;
 }
 
 #content {
@@ -24,6 +21,7 @@ body {
   margin-top: 5px;
   padding-left: 20px;
   margin-top: -20px;
+  font-family: "Trebuchet MS",Helvetica,Jamrul,sans-serif;
   float: left;
   font-style: italic;
 }
@@ -120,6 +118,7 @@ background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAnCAMA
 .sbottom a {
   text-decoration: none;
   font-style: italic;
+  font-family: "Trebuchet MS",Helvetica,Jamrul,sans-serif;
 }
 
 .sbottom a:hover {
