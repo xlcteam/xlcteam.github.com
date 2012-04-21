@@ -2,7 +2,10 @@ body {
   background: #01243B;
   color: #999;
 	margin: 0;
-  font-family: "Trebuchet MS",Helvetica,Jamrul,sans-serif;
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oxygen'), format('woff');
 }
 
 #content {
@@ -22,6 +25,7 @@ body {
   padding-left: 20px;
   margin-top: -20px;
   float: left;
+  font-style: italic;
 }
 
 #header div {
@@ -38,7 +42,6 @@ body {
 }
 
 .head {
-  font-style: italic;
   font-size: 3em;
   margin-top: 20px;
   padding-left: 20px;
