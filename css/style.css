@@ -27,7 +27,7 @@ body {
 }
 
 #header div {
-  width: 670px;
+  width: 700px;
   height: 170px;
   margin: 0 auto;
 }
@@ -119,10 +119,17 @@ background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAnCAMA
   text-decoration: none;
   font-style: italic;
   font-family: "Trebuchet MS",Helvetica,Jamrul,sans-serif;
+  color: #01243B;
 }
 
 .sbottom a:hover {
   text-decoration: underline;
+}
+
+.sbottom p {
+    font-size: 15px;
+    font-style: italic;
+    color: #000;
 }
 
 #footer{
