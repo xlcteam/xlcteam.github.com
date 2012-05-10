@@ -115,6 +115,10 @@ background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAnCAMA
   text-align: right;
 }
 
+.stitle {
+  margin-bottom: -20px;
+}
+
 .sbottom a {
   text-decoration: none;
   font-style: italic;
@@ -130,6 +134,7 @@ background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAnCAMA
     font-size: 15px;
     font-style: italic;
     color: #000;
+    margin-bottom: -2px;
 }
 
 #footer{
