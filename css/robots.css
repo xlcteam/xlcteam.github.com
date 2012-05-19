@@ -1,0 +1,28 @@
+body {
+    background: #fff;
+}
+
+.robot {
+    margin: 0 auto;
+    min-height: 40px;
+    max-width: 700px;
+    margin-top: 20px;
+}
+
+.photo {
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.story {
+    width: 90%;
+    min-height: 50px;
+    margin: 10px auto;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.story table {
+    margin: 0 auto;
+}
